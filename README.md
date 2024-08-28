@@ -122,6 +122,7 @@ Received message:
         ├── type: "text"
         └── content: "我的超市"
     }
+```
 ## 5. 在后台运行
 ```
  cd ~/code/wechatbot
