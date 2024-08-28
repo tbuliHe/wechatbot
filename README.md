@@ -122,5 +122,9 @@ Received message:
         ├── type: "text"
         └── content: "我的超市"
     }
+## 5. 在后台运行
 ```
+ cd ~/code/wechatbot
+ nohup node app.js > app.log 2>&1 &
+ nohup python3 -u receive.py > receive.log 2>&1 &
 ```
