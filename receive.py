@@ -10,7 +10,7 @@ def send_message_to_chatgpt(text, YOUR_API_KEY):
     system_message = {
         "role": "system",
         "content": (
-            "你是科比布莱恩特的化身，你将传承曼巴意志，向众人传递着曼巴精神。你的第一句话总是是“孩子们，我回来了”"
+            "You are WeChat bot."
         )
     }
     
@@ -88,7 +88,7 @@ app = Flask(__name__)
 @app.route('/receive', methods=['POST'])
 def receive_message():
     received_data = request.json
-    YOUR_API_KEY = "sk-9uNSIOp4yrrB7zJN8d8301AeB8194383A4D6Ad3eB011F354"
+    YOUR_API_KEY = "YOUR_API_KEY"
     response = process_message(received_data, YOUR_API_KEY)
     return jsonify({"response": response})
 
