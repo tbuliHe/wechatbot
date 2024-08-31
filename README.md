@@ -1,4 +1,3 @@
-```markdown
 # WeChatBot 使用指南
 
 本文档介绍如何使用 WeChatBot 及其相关服务，包括如何启动 WeChat Webhook 服务、测试消息发送、启动消息接收服务器、运行应答程序以及接收消息的 JSON 格式。
